@@ -1,0 +1,626 @@
+.container {
+  padding : 40px 0px;
+}
+
+.rowtainer{
+  padding: 28px 0px 27px;
+}
+
+.footer {
+}
+
+
+
+
+
+
+
+
+
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+
+
+
+textarea {
+  resize: vertical;
+}
+
+
+
+
+/* ==========================================================================
+ CUSTOM STYLES
+========================================================================== */
+
+/* GENERAL CSS */
+
+
+
+
+ol, ul{
+padding-left:40px;
+margin:16px 0 16px 0;
+}
+
+.divider{
+padding-bottom:16px;
+}
+
+.divider2x{
+padding-bottom:32px;
+}
+
+.divider3x{
+padding-bottom:48px;
+}
+
+
+
+/* ==========================================================================
+ CUSTOM STYLES - TYPOGRAPHY
+========================================================================== */
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 100%;
+}
+
+h1{
+  letter-spacing: -0.0225em;
+font-size: 36px;
+padding-top:5px;
+padding-bottom:10px;
+line-height:1.1;
+text-transform: capitalize;
+}
+
+h2 {
+  letter-spacing: -0.03em;
+font-size: 24px;
+}
+
+a{
+color: #cc0000;
+  text-decoration: none;
+cursor:pointer;
+}
+
+a:hover,
+a:focus,
+a:active{
+text-decoration:underline;
+}
+
+.article-footnote{
+font-size: 12px;
+  line-height: 130%;
+margin: 0 0 15px;
+display:block;
+}
+
+p{
+margin:16px 0 16px 0;
+}
+
+
+
+
+/* ==========================================================================
+ CUSTOM STYLES - HEADER
+========================================================================== */
+
+/* TOP SUB HEADER AREA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article-info{
+font-size:14px;
+color:#5a5a5a;
+border-bottom:1px solid #dbdbdb;
+padding-bottom:16px;
+margin-bottom:26px;
+}
+
+.main-content-area{
+   background-color:#FFF;
+   padding:25px 0 30px 0;
+}
+/*.main-content-area .inner-wrapper{
+padding:0 5px 0 25px;
+}*/
+
+
+h3.tag-line{
+color:#404040;
+font-size:18px;
+line-height:24px;
+}
+
+.article-main-image{
+  border-style: none;
+  float: right;
+  height: auto;
+  margin: 0 0 15px 20px;
+  position: relative;
+  width: 300px;
+
+}
+
+.article-main-content h2{
+color:#1e1e1e;
+font-size:18px;
+margin-top:25px;
+line-height:24px;
+}
+
+.article-main-content a{
+font-weight:bold;
+border-bottom:1px dotted #005689;
+color:#005689;
+transition: border-color 0.15s ease-out 0s;
+}
+
+.article-main-content a:hover{
+border-bottom:1px solid #005689;
+text-decoration:none;
+}
+
+.article-main-content .story-time{
+margin-top:0;
+}
+
+.article-main-content p{
+color:#404040;
+}
+
+
+
+.main-article-image{
+margin-bottom:26px;
+}
+.main-article-image-caption{
+background-color:#111111;
+font-size:12px;
+color:#fff;
+line-height:15px;
+padding:15px;
+}
+
+
+.article-main-content .grey-bg {
+  background-color: #f7f7f7;
+  padding: 20px 30px;
+}
+.article-main-content ul{
+padding-left:15px;
+}
+.article-main-content ul li, .article-main-content ol li{
+margin-bottom: 15px;
+}
+
+/* ==========================================================================
+ CUSTOM STYLES - BLOG FORMAT
+ ========================================================================== */
+
+.blog-summary{
+margin-bottom:25px;
+padding-bottom:25px;
+border-bottom:1px solid #ccc;
+}
+
+
+
+
+
+
+.blog-summary .article-info{
+border-bottom:none;
+margin-bottom:0;
+padding-bottom:10px;
+}
+
+.blog-summary .article-info, .blog-summary .story-time{
+font-size:12px;
+}
+
+.blog-summary .red-button a{
+font-size:14px;
+font-weight:normal;
+padding: 3px 10px;
+border:0;
+}
+
+.blog-summary .excerpt{
+font-size:14px;
+line-height:22px;
+margin-top:0;
+}
+
+/* ==========================================================================
+ CUSTOM STYLES - CALL TO ACTIONS
+ ========================================================================== */
+
+.tap-age a, .tap-age a:visited{
+  display:inline-block;
+  padding:15px;
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+  font-size: 18px;
+  font-size: 1.2rem;
+  background-color:#005689;
+  float:left;
+  margin-right:10px;
+  outline:none;
+  margin-bottom:10px;
+}
+
+.tap-age-img a{
+  display:inline-block;
+  padding:5px;
+  color:#fff;
+  text-decoration:none;
+  border:none;
+  font-weight:bold;
+  font-size: 18px;
+  font-size: 1.2rem;
+  float:left;
+  outline:none;
+}
+.tap-age-img a:hover{
+border:none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+filter: alpha(opacity=75);
+-moz-opacity: 0.75;
+-khtml-opacity: 0.75;
+opacity: 0.75;
+}
+
+p.red-button a, p.red-button a:visited{
+  display:inline-block;
+  padding:10px 30px;
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+  font-size: 20px;
+  background-color:#bb1919;
+  outline:none;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+line-height:25px;
+border-bottom:0;
+}
+
+.red-button a:hover, .red-button a:focus, .tap-age a:hover, .tap-age a:focus{
+  color:#fff!important;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+filter: alpha(opacity=75);
+-moz-opacity: 0.75;
+-khtml-opacity: 0.75;
+opacity: 0.75;
+border-bottom:0;
+}
+
+/* ==========================================================================
+ CUSTOM STYLES - SIDEBAR
+ ========================================================================== */
+
+.top-stories{
+background-color:#ededed;
+padding: 14px 24px 28px 24px;
+margin-bottom:30px;
+}
+
+
+
+
+
+
+
+
+
+.top-stories .story-time{
+margin-top:8px;
+}
+.story-time{
+margin-top:15px;
+color:#5a5a5a;
+font-size:14px;
+}
+
+
+
+
+
+/* ==========================================================================
+ CUSTOM STYLES - COMMENT SECTION
+ ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+ Media Queries
+========================================================================== */
+
+@media print,
+     (-o-min-device-pixel-ratio: 5/4),
+     (-webkit-min-device-pixel-ratio: 1.25),
+     (min-resolution: 120dpi) {
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+li.optional{
+  display:none;
+}
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+/* header mobile css */
+
+ 
+
+ 
+
+.sub-header .container12 .column3, .sub-header .container12 .column9, .sub-header .container12 .column12, .sub-header .container12 .column10{
+  margin-bottom:0;
+}
+
+
+
+.container12 .sublogo{
+  margin-bottom:0;
+}
+
+ 
+
+ 
+
+
+ 
+
+.main-content-area {
+    padding: 15px 0 30px 0;
+}
+
+ 
+
+ 
+
+ 
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.article-main-image{
+  width:55%;
+  height:auto;
+}
+
+h1{
+  font-size:30px;
+}
+
+}
+
+@media only screen and (max-width: 480px){
+
+/* misc general css tweaks for mobile devices */
+
+ 
+h1{
+  font-size:24px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.article-main-content p, .article-main-content h3{
+  font-size:16px;
+  line-height:22px;
+}
+
+ 
+
+ 
+.article-main-content .grey-bg {
+    padding: 20px 15px;
+}
+
+.article-main-content ul li, .article-main-content ol li{
+  font-size:16px;
+}
+
+.article-info{
+  padding-bottom:12px;
+  margin-bottom:18px;
+}
+
+.article-main-image{
+  margin-bottom:20px;
+  margin-left:0;
+}
+
+/* top sub menu contact privacy policy links */
+ 
+
+
+
+
+
+/* blog summary index and category pages */
+.blog-summary .article-main-image{
+  width:300px;
+}
+
+}
+
+/* ==========================================================================
+ Helper classes
+ ========================================================================== */
+
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+ Print styles
+ ========================================================================== */
+
+@media print {
+  * {
+      background: transparent !important;
+      color: #000 !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+      text-decoration: underline;
+  }
+
+  a[href]:after {
+      content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+      content: " (" attr(title) ")";
+  }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+      content: "";
+  }
+
+  pre,
+  blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+  }
+
+  thead {
+      display: table-header-group;
+  }
+
+  tr,
+  img {
+      page-break-inside: avoid;
+  }
+
+  img {
+      max-width: 100% !important;
+  }
+
+  @page {
+      margin: 0.5cm;
+  }
+
+  p,
+  h2,
+  h3 {
+      orphans: 3;
+      widows: 3;
+  }
+
+  h2,
+  h3 {
+      page-break-after: avoid;
+  }
+}

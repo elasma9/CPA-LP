@@ -1,0 +1,194 @@
+.Container {
+margin:auto;
+}
+.divStyle {
+ 
+  font-family:  Catamaran;
+  color: white;
+  font-weight: 600;
+  line-height: 110%;
+  text-align: center;
+  font-size: 55px;
+  word-break: break-word;
+
+
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+}
+
+
+.subStyle {   
+  font-family: Catamaran;
+    font-weight: thin;
+    line-height: 115%;
+    color:rgb(0, 0, 0);
+    text-align: center;
+
+     }
+
+.rowDiv {
+    background-color: rgb(27,100,55);
+   
+    }
+
+.colDiv{
+margin : auto;
+}
+
+@media (min-width: 1281px) {
+  .divStyle {
+    margin-top : 90px;
+      max-width: 1100px;
+      font-size: 62px;
+      
+      }
+
+      .subStyle {
+        font-size: 22px;
+        margin-top: 25px;
+        margin-bottom: 45px;
+
+         }
+    
+  }
+    
+    /* 
+      ##Device = Laptops, Desktops
+      ##Screen = B/w 1025px to 1280px
+    */
+    
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      
+      .divStyle {
+        margin-top : 95px;
+          max-width: 900px;
+          font-size: 60px;
+
+          }
+    
+          .subStyle {
+            margin-top: 10px;
+            font-size: 24px;
+            margin-top: 27px;
+            margin-bottom: 39px;
+    
+             }
+        
+      
+    }
+    
+    /* 
+      ##Device = Tablets, Ipads (portrait)
+      ##Screen = B/w 768px to 1024px
+    */
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+      
+      .divStyle {
+        margin-top : 105px;
+        margin-left:25px;
+        margin-right:25px;
+          font-size: 62px;
+
+          }
+    
+          .subStyle {
+            margin-top: 43px;
+            font-size: 24px;
+            margin-bottom: 49px;
+    
+             }
+        
+      
+    
+      
+    }
+    
+    /* 
+      ##Device = Tablets, Ipads (landscape)
+      ##Screen = B/w 768px to 1024px
+    */
+    
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+      
+    }
+    
+    /* 
+      ##Device = Low Resolution Tablets, Mobiles (Landscape)
+      ##Screen = B/w 481px to 767px
+    */
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+      
+      .divStyle {
+        margin-top: 55px;
+       margin-left:25px;
+       margin-right:25px;
+        font-size: 55px;
+        }
+  
+        .subStyle {
+          margin-left:25px;
+          margin-right:25px;
+          font-size: 21px;
+          margin-top: 50px;
+          margin-bottom: 19px;
+  
+           }
+
+    }
+    
+    /* 
+      ##Device = Most of the Smartphones Mobiles (Portrait)
+      ##Screen = B/w 320px to 479px
+    */
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+      
+      .divStyle {
+          margin-top: 55px;
+         margin-left:25px;
+         margin-right:25px;
+          font-size: 55px;
+          }
+    
+          .subStyle {
+            margin-left:25px;
+            margin-right:25px;
+            font-size: 21px;
+            margin-top: 50px;
+            margin-bottom: 19px;
+    
+             }
+      
+             .colDiv{
+            }
+    }
+
+    @media (max-width: 320px)  {
+      
+      .divStyle {
+        margin-top: 30px;
+        margin-left:25px;
+        margin-right:25px;
+          font-size: 45px;
+          
+          }
+    
+          .subStyle {
+            margin-left:25px;
+            margin-right:25px;
+            font-size: 19px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+    
+             }  
+            
+  
+     
+          }
+
+    

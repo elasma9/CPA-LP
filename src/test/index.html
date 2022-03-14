@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hello react</title>
+</head>
+<body>
+<div id='mydiv'></div>
+
+
+<script type="text/babel">
+    
+    class Car extends React.Component {
+        render() {
+            return <h1>im a {this.props.model.brand}</h1>;
+        }
+    }
+    
+    class Garage extends React.Component {
+        render() {
+            const mycar = {brand : "toyota", model : "corolla"};
+            retrun (
+                <div>
+                <h1>who is there</h1>
+                <Car model={mycar} />
+            </div>
+            );
+            
+        }
+
+    }
+    ReactDOM.render(<Garage />, document.getElementById('mydiv'))
+
+    </script>
+
+
+</body>
+</html>
+

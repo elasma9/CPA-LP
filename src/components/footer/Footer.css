@@ -1,0 +1,125 @@
+
+ .footercontainer{
+  left: 0;
+  position: static;/* Updated Property */
+  width:100%;
+  margin-top:1%;
+
+}
+ .divStylefooter {
+   margin :20px;
+   padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+  
+  
+
+  
+  .rowDivfooter {
+    background-color: rgb(0, 0, 0);
+    margin-top:0px;
+      }
+  
+  .colDivfooter{
+  margin : auto;
+  }
+  
+
+  
+    @media (max-width: 767px) and (min-width: 992px) {
+
+      .rowDivfooter {
+       margin-top:220px;
+     
+          }
+        
+      }
+    
+      @media (max-width: 442px) {
+
+        .rowDivfooter {
+         margin-top:280px;
+       
+            }
+          
+        }
+        @media (max-width: 399px) {
+
+          .rowDivfooter {
+           margin-top:380px;
+         
+              }
+            
+          }
+
+          @media (max-width: 344px) {
+
+            .rowDivfooter {
+             margin-top:450px;
+           
+                }
+              
+            }
+            @media (max-width: 312px) {
+
+              .rowDivfooter {
+               margin-top:520px;
+             
+                  }
+                
+              }
+
+              @media (max-width: 312px) {
+
+                .rowDivfooter {
+                 margin-top:520px;
+               
+                    }
+                  
+                }
+
+                @media (max-width: 279px) {
+
+                  .rowDivfooter {
+                   margin-top:600px;
+                 
+                      }
+                    
+                  }
+
+                  
+                @media (max-width: 256px) {
+
+                  .rowDivfooter {
+                   margin-top:740px;
+                 
+                      }
+                    
+                  }
+
+                  @media (max-width: 242px) {
+
+                    .rowDivfooter {
+                     margin-top:800px;
+                   
+                        }
+                      
+                    }
+      
+  .imgfooter{
+    max-width: 130px;
+    margin: auto;
+    padding: auto;
+  } 
+
+
+  .outer-footer{
+
+
+  }
+  .page-footer{
+
+    background-color: rgb(155, 155, 155);
+  }
